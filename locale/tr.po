@@ -2,296 +2,249 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "error:stock.order_point:"
-msgid "Only one order point is allowed for each product-location pair."
-msgstr ""
-"Apenas uma regras de abastecimento é permitida para cada par produto-"
-"localização."
-
-msgctxt "error:stock.order_point:"
-msgid ""
-"You can not define on the same product two order points with opposite "
-"locations (from \"Storage Location\" to \"Overflowing Location\" and vice "
-"versa)."
-msgstr ""
-"Você não pode definir duas regras de abastecimento no mesmo produto com "
-"localizações opostas (de \"Local de Armazenamento\" para \"Local de "
-"Transbordo\" e vice versa)."
-
-msgctxt "error:stock.order_point:"
-msgid ""
-"You can not define on the same product two order points with opposite "
-"locations (from \"Storage Location\" to \"Provisioning Location\" and vice "
-"versa)."
-msgstr ""
-"Você não pode definir duas regras de abastecimento no mesmo produto com "
-"localizações opostas (de \"Local de Armazenamento\" para \"Local de "
-"Transbordo\" e vice versa)."
-
-msgctxt "error:stock.supply:"
-msgid "There are some late customer moves."
-msgstr "Algumas movimentações de clientes estão atrasadas."
-
-msgctxt "error:stock.supply:"
-msgid "There are some late supplier moves."
-msgstr "Algumas movimentações de fornecedores estão atrasadas."
-
+#, fuzzy
 msgctxt "field:product.product,order_points:"
 msgid "Order Points"
-msgstr "Regras de Abastecimento"
+msgstr "Order Points"
 
 msgctxt "field:purchase.configuration,supply_period:"
 msgid "Supply Period"
-msgstr "Período de Abastecimento"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,create_date:"
 msgid "Create Date"
-msgstr "Data de criação"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,create_uid:"
 msgid "Create User"
-msgstr "Criado por"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,id:"
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,rec_name:"
 msgid "Record Name"
-msgstr "Nome do Registro"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,supply_period:"
 msgid "Supply Period"
-msgstr "Período de Abastecimento"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,write_date:"
 msgid "Write Date"
-msgstr "Data de edição"
+msgstr ""
 
 msgctxt "field:purchase.configuration.supply_period,write_uid:"
 msgid "Write User"
-msgstr "Editado por"
+msgstr ""
 
 msgctxt "field:stock.location,overflowing_location:"
 msgid "Overflowing Location"
-msgstr "Localização de Transbordo"
+msgstr ""
 
 msgctxt "field:stock.location,provisioning_location:"
 msgid "Provisioning Location"
-msgstr "Localização do Abastecimento"
+msgstr ""
 
 msgctxt "field:stock.order_point,company:"
 msgid "Company"
-msgstr "Empresa"
+msgstr ""
 
 msgctxt "field:stock.order_point,create_date:"
 msgid "Create Date"
-msgstr "Data de criação"
+msgstr ""
 
 msgctxt "field:stock.order_point,create_uid:"
 msgid "Create User"
-msgstr "Criado pelo usuário"
+msgstr ""
 
 msgctxt "field:stock.order_point,id:"
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 msgctxt "field:stock.order_point,location:"
 msgid "Location"
-msgstr "Localização"
+msgstr ""
 
 msgctxt "field:stock.order_point,max_quantity:"
 msgid "Maximal Quantity"
-msgstr "Quantidade máxima"
+msgstr ""
 
 msgctxt "field:stock.order_point,min_quantity:"
 msgid "Minimal Quantity"
-msgstr "Quantidade mínima"
+msgstr ""
 
 msgctxt "field:stock.order_point,overflowing_location:"
 msgid "Overflowing Location"
-msgstr "Localização de Transbordo"
+msgstr ""
 
 msgctxt "field:stock.order_point,product:"
 msgid "Product"
-msgstr "Produto"
+msgstr ""
 
 msgctxt "field:stock.order_point,provisioning_location:"
 msgid "Provisioning Location"
-msgstr "Localização do Abastecimento"
+msgstr ""
 
 msgctxt "field:stock.order_point,rec_name:"
 msgid "Record Name"
-msgstr "Nome do Registro"
+msgstr ""
 
 msgctxt "field:stock.order_point,storage_location:"
 msgid "Storage Location"
-msgstr "Local de armazenamento"
+msgstr ""
 
 msgctxt "field:stock.order_point,target_quantity:"
 msgid "Target Quantity"
-msgstr "Quantidade Alvo"
+msgstr ""
 
 msgctxt "field:stock.order_point,type:"
 msgid "Type"
-msgstr "Tipo"
+msgstr ""
 
 msgctxt "field:stock.order_point,unit:"
 msgid "Unit"
-msgstr "Unidade"
+msgstr ""
 
 msgctxt "field:stock.order_point,unit_digits:"
 msgid "Unit Digits"
-msgstr "Dígitos da unidade"
+msgstr ""
 
 msgctxt "field:stock.order_point,warehouse_location:"
 msgid "Warehouse Location"
-msgstr "Localização do Almoxarifado"
+msgstr ""
 
 msgctxt "field:stock.order_point,write_date:"
 msgid "Write Date"
-msgstr "Data de gravação"
+msgstr ""
 
 msgctxt "field:stock.order_point,write_uid:"
 msgid "Write User"
-msgstr "Gravado pelo usuário"
+msgstr ""
 
 msgctxt "field:stock.supply.start,id:"
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 msgctxt "help:stock.location,overflowing_location:"
 msgid "Leave empty for no default overflowing"
-msgstr "Deixe vazio para nenhum transbordo padrão"
+msgstr ""
 
 msgctxt "help:stock.location,provisioning_location:"
 msgid "Leave empty for no default provisioning"
-msgstr "Deixe vazio para nenhum abastecimento padrão"
+msgstr ""
 
-#, fuzzy
 msgctxt "model:ir.action,name:act_order_point_form"
 msgid "Order Points"
 msgstr "Order Points"
 
-#, fuzzy
 msgctxt "model:ir.action,name:act_order_point_form_relate"
 msgid "Order Points"
 msgstr "Order Points"
 
-#, fuzzy
 msgctxt "model:ir.action,name:act_order_point_form_relate2"
 msgid "Order Points"
 msgstr "Order Points"
 
-#, fuzzy
 msgctxt "model:ir.action,name:act_stock_supply"
 msgid "Supply Stock"
 msgstr "Supply Stock"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_order_point_form_domain_all"
 msgid "All"
 msgstr "All"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_order_point_form_domain_internal"
 msgid "Internal"
 msgstr "Internal"
 
-#, fuzzy
 msgctxt ""
 "model:ir.action.act_window.domain,name:act_order_point_form_domain_purchase"
 msgid "Purchase"
 msgstr "Purchase"
 
-#, fuzzy
+msgctxt "model:ir.message,text:msg_late_customer_moves"
+msgid "There are some customer moves that are late."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_late_supplier_moves"
+msgid "There are some supplier moves that are late."
+msgstr ""
+
+msgctxt ""
+"model:ir.message,text:msg_order_point_concurrent_overflowing_location_internal"
+msgid ""
+"You cannot define for the same product two order points with opposite locations\n"
+"(from \"Overflowing Location\" to \"Provisioning Location\" and vice versa)."
+msgstr ""
+
+msgctxt ""
+"model:ir.message,text:msg_order_point_concurrent_provisioning_location_internal"
+msgid ""
+"You cannot define for the same product two order points with opposite locations\n"
+"(from \"Storage Location\" to \"Provisioning Location\" and vice versa)."
+msgstr ""
+
+msgctxt "model:ir.message,text:msg_order_point_unique"
+msgid "Only one order point is allowed for each product-location pair."
+msgstr ""
+
+msgctxt "model:ir.rule.group,name:rule_group_order_point"
+msgid "User in company"
+msgstr ""
+
 msgctxt "model:ir.ui.menu,name:menu_order_point_form"
 msgid "Order Points"
 msgstr "Order Points"
 
-#, fuzzy
 msgctxt "model:ir.ui.menu,name:menu_stock_supply"
 msgid "Supply Stock"
 msgstr "Supply Stock"
 
 msgctxt "model:purchase.configuration.supply_period,name:"
 msgid "Purchase Configuration Supply Period"
-msgstr "Configurações de Compra Período de Abastecimento"
+msgstr ""
 
+#, fuzzy
 msgctxt "model:stock.order_point,name:"
 msgid "Order Point"
-msgstr "Regra de Abastecimento"
+msgstr "Order Points"
 
+#, fuzzy
 msgctxt "model:stock.supply.start,name:"
 msgid "Supply Stock"
-msgstr "Abastecer Estoque"
+msgstr "Supply Stock"
 
+#, fuzzy
 msgctxt "selection:stock.order_point,type:"
 msgid "Internal"
-msgstr "Interno"
+msgstr "Internal"
 
+#, fuzzy
 msgctxt "selection:stock.order_point,type:"
 msgid "Purchase"
-msgstr "Compra"
+msgstr "Purchase"
 
 msgctxt "view:stock.order_point:"
 msgid "Order Point Type"
-msgstr "Tipo de Regra de Abastecimento"
+msgstr ""
 
 msgctxt "view:stock.order_point:"
 msgid "Product Info"
-msgstr "Informação do Produto"
+msgstr ""
 
+#, fuzzy
 msgctxt "view:stock.supply.start:"
 msgid "Supply Stock?"
-msgstr "Abastecer Estoque?"
+msgstr "Supply Stock"
 
 msgctxt "wizard_button:stock.supply,start,create_:"
 msgid "Create"
-msgstr "Criar"
+msgstr ""
 
 msgctxt "wizard_button:stock.supply,start,end:"
 msgid "Cancel"
-msgstr "Cancelar"
-
-msgctxt "model:ir.cron,name:cron_generate_request"
-msgid "Generate Purchase Requests"
-msgstr "Gerar Pedidos de Compra"
-
-msgctxt "model:ir.cron,name:cron_shipment_iternal"
-msgid "Generate Internal Shipments"
-msgstr "Gere expedições internas"
-
-msgctxt "model:ir.ui.menu,name:menu_purchase_request_create"
-msgid "Create Purchase Requests"
-msgstr "Criar Pedidos de Compra"
-
-msgctxt "model:ir.ui.menu,name:menu_shipment_internal_create"
-msgid "Create Internal Shipments"
-msgstr "Gerar Remessas Internas"
-
-msgctxt "model:purchase.request.create.start,name:"
-msgid "Create Purchase Request"
-msgstr "Criar Pedidos de Compra"
-
-msgctxt "model:stock.shipment.internal.create.start,name:"
-msgid "Create Shipment Internal"
-msgstr "Criar Remessa Interna"
-
-msgctxt "view:purchase.request.create.start:"
-msgid "Create Purchase Requests?"
-msgstr "Criar Pedidos de Compra?"
-
-msgctxt "view:stock.shipment.internal.create.start:"
-msgid "Create Internal Shipments?"
-msgstr "Criar Remessas Internas?"
-
-msgctxt "wizard_button:stock.shipment.internal.create,start,create_:"
-msgid "Create"
-msgstr "Criar"
-
-msgctxt "wizard_button:stock.shipment.internal.create,start,end:"
-msgid "Cancel"
-msgstr "Cancelar"
+msgstr ""

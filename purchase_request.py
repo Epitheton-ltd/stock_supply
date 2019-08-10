@@ -103,7 +103,7 @@ class PurchaseRequest(metaclass=PoolMeta):
                     pbl = Product.products_by_location(warehouse_ids,
                         with_childs=True, grouping_filter=(product_ids,))
                 for warehouse_id in warehouse_ids:
-                    min_date_qties = defaultdict(lambda: 0,
+                    min_date_qties = defaultdict(int,
                         ((x, pbl.pop((warehouse_id, x), 0))
                             for x in product_ids))
                     # Do not compute shortage for product
@@ -221,7 +221,7 @@ class PurchaseRequest(metaclass=PoolMeta):
         max_date = None
         today = Date.today()
 
-        for product_supplier in product.product_suppliers:
+        for product_supplier in product.product_suppliers_used():
             supply_date = product_supplier.compute_supply_date(date=today)
             next_day = today + product_supplier.get_supply_period()
             next_supply_date = product_supplier.compute_supply_date(
